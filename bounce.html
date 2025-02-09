@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>keyframes</title>
+        <link rel="stylesheet" herf="styles.css"/>
+    </head>
+    <body>
+        <div class="bounce"><center>hi how are you</center></div>
+        <style>
+            @keyframes bounce{
+                80%,50%,50%,80%,10%{
+                    transform: translateY(-30px);
+                }
+                40%{
+                    transform: translateY(-30px);
+                }
+                80%{
+                    transform: translateY(-15px);
+                }
+            }
+            .bounce{
+                animation: bounce 2s infinite;
+            }
+        </style>
+    </body>
+</html>
